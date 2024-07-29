@@ -1,0 +1,567 @@
+body {
+    background: rgba(242, 247, 255, 0.7);
+    backdrop-filter: blur(100px);
+}
+
+.container {
+    width: 1140px;
+    padding: 0;
+    margin: 0 auto;
+    /* background: yellow; */
+}
+
+.navbar {
+    margin: 16px 0;
+}
+
+.navbar__left {
+    margin: 22px 0;
+}
+
+.navbar__logo-wrapper {
+    width: 105px;
+    height: auto;
+    margin-right: 32px;
+}
+
+.navbar__navbar-list {
+    margin: 4px 0;
+    /* background: red; */
+}
+
+.navbar__navbar-item {
+    margin-right: 32px;
+}
+
+.navbar__navbar-item-logo {
+    margin-right: 12px;
+}
+
+.navbar__navbar-item:last-child {
+    margin-right: 0;
+}
+
+.navbar__navbar-item-logo:last-child {
+    margin-right: 0;
+}
+
+.navbar__navbar-list:last-child {
+    margin-right: 0;
+}
+
+.content {
+    margin-top: 168px;
+    width: 730px;
+    height: auto;
+}
+
+.content__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.content__button {
+    margin-top: 32px;
+    padding: 12px 32px;
+    background: #8C30F5;
+    border-radius: 6px;
+    color: white;
+}
+
+.phone_logo {
+    margin-top: 96px;
+    width: 320px;
+    height: auto;
+    padding: 0 15px;
+}
+
+.features {
+    margin-top: 64px;
+}
+
+.features__list {
+    margin-bottom: 64px;
+    /* margin-top: 248px; */
+}
+
+.features__list:last-child {
+    margin-bottom: 0px;
+}
+
+.features__list-element {
+    text-align: center;
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 64px;
+}
+
+.features__list-element:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.features__list-item {
+    margin: 24px 0px;
+}
+
+.features__list-item-head {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    margin: 8px 0px;
+}
+
+.features__list-item-para {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* margin: 8px 0px; */
+}
+
+.features__text {
+    display: inline-block;
+    text-align: center;
+    margin: 0 285px;
+    margin-bottom: 48px;
+    margin-top: 64px;
+}
+
+.feature__text-head {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.feature__text-para {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.logo {
+    padding: 16px 0;
+}
+
+.company__logo {
+    padding: 24px 110px;
+}
+
+.company__logo-item {
+    margin-right: 64px;
+}
+
+.company__logo-item:last-child {
+    margin-right: 0px;
+}
+
+.divider {
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+
+.testimonial__background-color {
+    background: #D5FAFC;
+    padding-top: 64px;
+    height: 869px;
+}
+
+.quote_mark {
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.testimonial__section-heading {
+    margin-top: -64px;
+    margin-left: 95px;
+}
+
+.testimonial__section-title {
+    width: 445px;
+    height: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.testimonial__list {
+    position: absolute;
+    background: #FFFFFF;
+    padding: 32px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.testimonial__list-airbnb {
+    width: 445px;
+    height: 340px;
+    margin-left: 540px;
+    margin-top: -120px;
+}
+
+.testimonial__list-hubspot {
+    width: 350px;
+    height: 468px;
+    margin-left: 160px;
+    margin-top: 24px;
+}
+
+.testimonial__list-hubspot .testimonial__list-feedback {
+    width: 254px;
+    height: auto;
+}
+
+.testimonial__list-bookmyshow {
+    width: 350px;
+    height: 276px;
+    margin-left: 540px;
+    margin-top: 252px;
+}
+
+.testimonial__list-bookmyshow .testimonial__list-feedback {
+    width: 254px;
+    height: auto;
+}
+
+.testimonial__section-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.testimonial__list-airbnb>li>img {
+    width: 130px;
+    height: 40px;
+}
+
+.testimonial__list-logo {
+    width: 16px;
+    height: auto;
+    padding-top: 32px;
+    /* opacity: 0.3; */
+}
+
+.testimonial__list-airbnb .testimonial__list-feedback {
+    width: 349px;
+    height: auto;
+}
+
+.testimonial__list-feedback {
+    margin-top: 32px;
+    margin-left: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.testimonial__list-feedback>h3 {
+    padding-top: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #18191F;
+}
+
+.testimonial__list-hubspot>li>img {
+    width: 140px;
+    height: 40px;
+}
+
+.testimonial__list-feedback>h4 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+}
+
+.stats__padding {
+    padding: 80px 0px;
+}
+
+.stats__section-heading {
+    width: 540px;
+    height: auto;
+    margin: 2px 30px 2px 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.stats__section-heading__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.stats__count__list {
+    width: 540px;
+    height: auto;
+}
+
+.stats__count-icon {
+    width: 255px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.stats__count-icon-img {
+    padding: 17px 8px;
+}
+
+.stats__count__details {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.stats__count__details-number {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.stats__count-icon:last-child {
+    margin-bottom: 0px;
+}
+
+.stats__count-icon:nth-last-child(2) {
+    margin-bottom: 0px;
+}
+
+.iphone-image {
+    height: 540px;
+    width: 540px;
+    background: #F1E4FF;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 64px 0;
+    margin-right: 30px;
+}
+
+.iphone-image>img {
+    margin: 56px 90px 0px 90px;
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+}
+
+.feature-content {
+    width: 540px;
+    height: auto;
+    margin: 183px 0;
+    padding: 0 48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.feature-content-arrow>img {
+    margin: 10px 9px;
+}
+
+.fashion-content {
+    width: 540px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+
+.fashion-content>h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    margin-bottom: 32px;
+}
+
+.fashion-content>p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.fashion__img {
+    margin-bottom: 64px;
+}
+
+.fasgion__img>img {
+    width: 100%;
+}
+
+.last {
+    height: 491px;
+    background: #2EC5CE;
+    overflow: hidden;
+}
+
+.last__content {
+    width: 540px;
+    padding-top: 68px;
+    margin-right: 74px;
+}
+
+.last__content-top-heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.last__content-top-para {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    margin-bottom: 48px;
+}
+
+.last__content-bottom {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.last__content-bottom>p {
+    margin-bottom: 8px;
+}
+
+.last__content-bottom-logo {
+    margin-right: 12px;
+}
+
+.last__content-bottom-logo:last-child {
+    margin-right: 0px;
+}
+
+.last__images-first {
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+    width: 232px;
+    margin-top: -120px;
+    margin-right: 32px;
+}
+
+.last__images-second {
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+    margin-top: 88px;
+    width: 232px;
+}
+
+.footer {
+    background: #0B0D17;
+}
+
+.footer__right {
+    margin-top: 56px;
+    padding-right: 25px;
+    margin-bottom: 84px;
+}
+
+.footer__right-item {
+    margin-bottom: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #D9DBE1;
+}
+
+.footer__right-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer__left {
+    margin: 56px 0;
+}
+
+.footer__left>ul {
+    margin: 24px 0;
+}
+
+.footer__left>ul:nth-child(2) {
+    margin-bottom: -12px;
+}
+
+.footer__left>ul:last-child {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #D9DBE1;
+}
+
+.footer__left>ul>li {
+    margin-right: 24px;
+}
+
+.footer__left>ul>li:last-child {
+    margin-right: 0px;
+}
+
+.footer__left>ul>li>a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+}
